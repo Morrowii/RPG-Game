@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="assets/style/reset.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/style/style.css">
+
+    <title>Lord of the Rings RPG</title>
+  </head>
+  <body>
+    <div class="container-fluid h-100">
+        <div class="row h-25 d-flex">
+            <div class="col-3 d-flex flex-column"><div class="mx-auto mt-4"><h3>Player Health</h3><h3 id="player-health"></h3></div></div>
+            <div class="col-6 mt-3 text-center d-flex flex-column">
+              <h1>Lord of the Rings RPG</h1>
+              <h2>Choose your character, then your challenger.</h2>
+              <button id="attack-button" class=" m-auto w-25">Attack</button>
+            </div>
+            <div class="col-3 d-flex flex-column"><div class="mx-auto mt-4"><h3>Challenger Health</h3><h3 id="challenger-health"></h3></div></div>
+        </div>
+        <div class="row h-75 ml-5 pl-5 pb-3">
+            <div class="col d-flex"><img id="frodo" class="mt-auto character" data-attack="5" data-health="50" src="assets/images/frodo.png"></div>
+            <div class="col d-flex"><img id="gimli" class="mt-auto character" data-attack="10" data-health="100" src="assets/images/gimli.png"></div>
+            <div class="col d-flex"><img id="legolas" class="mt-auto character" data-attack="15" data-health="150" src="assets/images/legolas.png"></div>
+            <div class="col d-flex"><img id="gandalf" class="mt-auto character" data-attack="20" data-health="200" src="assets/images/gandalf.png"></div>
+        </div>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        
+    <!-- Custom JS -->
+    <script src="assets/javascript/game.js"></script>
+  </body>
+</html>
